@@ -1,0 +1,23 @@
+.btn-create {
+  box-shadow: 5px 6px 0px 0px #de6267;
+  padding: 6px 17px;
+  border: 1px solid #30475E;
+  border-radius: 5px;
+  background-color: #ffff;
+  color: #30475E;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-home {
+    flex-direction: column;
+  }
+
+  .information {
+    margin-bottom: 50px;
+  }
+  .image {
+    img {
+      width: 100%;
+    }
+  }
+}

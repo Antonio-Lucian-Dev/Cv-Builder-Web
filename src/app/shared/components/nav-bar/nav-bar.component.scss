@@ -1,0 +1,41 @@
+.logo {
+  height: 75px;
+  img {
+    height: 100%;
+  }
+}
+
+.links {
+  width: 270px;
+  margin-right: 80px;
+  li{
+    list-style: none;
+    a {
+      text-decoration: none;
+      color: #000000;
+    }
+  }
+}
+
+.active {
+  border-bottom: 2px solid red;
+  transition: width 2s;
+}
+
+.btn-mobile-nav {
+  color: #000000;
+  border: none;
+  box-shadow: none!important;
+}
+
+.icon-nav {
+  width: 33px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .links {
+    width: 100%;
+    margin-right: 0;
+  }
+}
